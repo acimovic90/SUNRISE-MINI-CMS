@@ -6,7 +6,7 @@
   
   <div class="row">
     <div class="col-lg-12" >
-       Design by: <b>Aleksandar Acimovic</b></a>
+       Design by: <b></b></a>
     </div>
   </div>
 </div>
