@@ -1,0 +1,246 @@
+@import url(http://fonts.googleapis.com/css?family=Vibur);
+/* line 5, ../scss/bootstrap-override.scss */
+.navbar {
+  height: 150px;
+  margin-bottom: 0px;
+}
+
+/* line 10, ../scss/bootstrap-override.scss */
+.navbar__links {
+  margin-top: 80px;
+  margin-left: 0px;
+}
+
+/* line 19, ../scss/bootstrap-override.scss */
+.navbar-toggle {
+  background-color: color__white;
+  float: left;
+  border: 0px;
+}
+
+/* line 25, ../scss/bootstrap-override.scss */
+.menu__dropdown {
+  width: 100%;
+}
+
+/* line 29, ../scss/bootstrap-override.scss */
+.navbar__search {
+  margin-right: 0px;
+  margin-top: 40px;
+}
+
+/* line 36, ../scss/bootstrap-override.scss */
+.jumbotron {
+  background-color: white;
+  padding: 0px;
+}
+
+/* line 44, ../scss/bootstrap-override.scss */
+.jumbotron h1 {
+  color: white;
+}
+
+/* line 48, ../scss/bootstrap-override.scss */
+.item {
+  height: 600px;
+  width: 100%;
+  margin-top: 15px;
+  border: 1px solid #DADAD8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* line 57, ../scss/bootstrap-override.scss */
+.item__inner {
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+}
+
+/* line 66, ../scss/bootstrap-override.scss */
+.item__inner .container__button {
+  margin-top: 40px;
+}
+/* line 70, ../scss/bootstrap-override.scss */
+.item__inner .btn__read {
+  background-color: #5A8895;
+  color: white;
+  border-bottom: 3px solid grey;
+}
+/* line 77, ../scss/bootstrap-override.scss */
+.item__inner .fa-trash-o {
+  color: #AFAFAF;
+  background-color: white;
+  position: absolute;
+  z-index: 99;
+  margin-top: -190px;
+  padding: 8px;
+  border: 3px solid #E5E6EB;
+  border-radius: 15px;
+}
+
+/* line 90, ../scss/bootstrap-override.scss */
+footer {
+  margin-top: 50px;
+  background-color: #5A8895;
+}
+
+/* line 97, ../scss/bootstrap-override.scss */
+footer p.footer__text {
+  color: white;
+}
+
+/*********ADMIN PANEL*******/
+/* line 4, ../scss/admin-login-form.scss */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  font-family: arial;
+}
+
+/* line 10, ../scss/admin-login-form.scss */
+body {
+  background-image: url("../images/sunrise__background--turquoise.jpg");
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* line 19, ../scss/admin-login-form.scss */
+h1 {
+  color: #ccc;
+  text-align: center;
+  font-family: 'Vibur', cursive;
+  font-size: 50px;
+}
+
+/* line 26, ../scss/admin-login-form.scss */
+.login-form {
+  width: 450px;
+  padding: 40px 30px;
+  margin: auto;
+  margin-top: 30px;
+  background: #eee;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 35, ../scss/admin-login-form.scss */
+.form-group {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+/* line 39, ../scss/admin-login-form.scss */
+.form-control {
+  width: 100%;
+  height: 50px;
+  border: none;
+  padding: 5px 7px 5px 15px;
+  background: #fff;
+  color: #666;
+  border: 2px solid #ddd;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+/* line 48, ../scss/admin-login-form.scss */
+.form-control:focus, .form-control:focus + .fa {
+  border-color: #5A8895;
+  color: #5A8895;
+}
+
+/* line 53, ../scss/admin-login-form.scss */
+.form-group .fa {
+  position: absolute;
+  right: 15px;
+  top: 17px;
+  color: #999;
+}
+
+/* line 59, ../scss/admin-login-form.scss */
+.log-status.wrong-entry {
+  -moz-animation: wrong-log 0.3s;
+  -webkit-animation: wrong-log 0.3s;
+  animation: wrong-log 0.3s;
+}
+
+/* line 62, ../scss/admin-login-form.scss */
+.log-status.wrong-entry .form-control, .wrong-entry .form-control + .fa {
+  border-color: #ed1c24;
+  color: #ed1c24;
+}
+
+/* line 66, ../scss/admin-login-form.scss */
+.log-btn {
+  background: #5A8895;
+  display: inline-block;
+  width: 100%;
+  font-size: 16px;
+  height: 50px;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+}
+
+/* line 78, ../scss/admin-login-form.scss */
+.link {
+  text-decoration: none;
+  color: #C6C6C6;
+  float: right;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+/* line 84, ../scss/admin-login-form.scss */
+.link:hover {
+  text-decoration: underline;
+  color: #8C918F;
+}
+
+/* line 89, ../scss/admin-login-form.scss */
+.alert {
+  display: none;
+  font-size: 12px;
+  color: #f00;
+  float: left;
+}
+
+@-moz-keyframes wrong-log {
+  0%, 100% {
+    left: 0px;
+  }
+  20% , 60% {
+    left: 15px;
+  }
+  40% , 80% {
+    left: -15px;
+  }
+}
+@-webkit-keyframes wrong-log {
+  0%, 100% {
+    left: 0px;
+  }
+  20% , 60% {
+    left: 15px;
+  }
+  40% , 80% {
+    left: -15px;
+  }
+}
+@keyframes wrong-log {
+  0%, 100% {
+    left: 0px;
+  }
+  20% , 60% {
+    left: 15px;
+  }
+  40% , 80% {
+    left: -15px;
+  }
+}

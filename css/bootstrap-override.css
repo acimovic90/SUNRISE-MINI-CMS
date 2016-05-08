@@ -1,0 +1,187 @@
+@media (max-width: 767px) {
+  /* line 10, ../scss/bootstrap-override.scss */
+  body .navbar__top .navbar-toggle {
+    background-color: color__white;
+    float: left;
+    border: 0px;
+  }
+  /* line 16, ../scss/bootstrap-override.scss */
+  body .navbar__top .menu__dropdown {
+    width: 100%;
+    background-color: #f8f8f8;
+  }
+  /* line 21, ../scss/bootstrap-override.scss */
+  body .navbar__top .navbar {
+    height: 150px;
+    margin-bottom: 0px;
+  }
+  /* line 26, ../scss/bootstrap-override.scss */
+  body .navbar__top .navbar__links {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  /* line 34, ../scss/bootstrap-override.scss */
+  body .jumbotron {
+    display: none;
+  }
+  /* line 38, ../scss/bootstrap-override.scss */
+  body footer {
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #5A8895;
+  }
+  /* line 43, ../scss/bootstrap-override.scss */
+  body footer .footer__item {
+    color: white;
+  }
+  /* line 48, ../scss/bootstrap-override.scss */
+  body footer .social__links {
+    padding: 15px;
+  }
+  /* line 52, ../scss/bootstrap-override.scss */
+  body footer .col-xs-2 {
+    margin-left: 5px;
+  }
+  /* line 55, ../scss/bootstrap-override.scss */
+  body footer a {
+    color: white;
+  }
+  /* line 59, ../scss/bootstrap-override.scss */
+  body footer a:hover {
+    color: #F4F4F4;
+  }
+}
+/* line 67, ../scss/bootstrap-override.scss */
+.navbar__top .navbar-toggle {
+  background-color: color__white;
+  float: left;
+  border: 0px;
+}
+/* line 73, ../scss/bootstrap-override.scss */
+.navbar__top .menu__dropdown {
+  width: 100%;
+  background-color: #f8f8f8;
+}
+/* line 78, ../scss/bootstrap-override.scss */
+.navbar__top .navbar {
+  height: 150px;
+  margin-bottom: 0px;
+}
+/* line 83, ../scss/bootstrap-override.scss */
+.navbar__top .navbar__links {
+  margin-top: 80px;
+  margin-left: 140px;
+}
+
+/* line 97, ../scss/bootstrap-override.scss */
+.jumbotron__banner {
+  background-color: white;
+  padding: 0px;
+}
+/* line 101, ../scss/bootstrap-override.scss */
+.jumbotron__banner .jumbotron__inner {
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* line 107, ../scss/bootstrap-override.scss */
+.jumbotron__banner h3 {
+  font-size: 36px;
+  line-height: 40px;
+  margin-bottom: 1em;
+  font-weight: bold;
+  color: white;
+  font-family: Georgia,Times,"Times New Roman",serif;
+}
+/* line 116, ../scss/bootstrap-override.scss */
+.jumbotron__banner .btn--turquoise {
+  background-color: #5A8895;
+  -webkit-border-radius: 2px;
+  border-radius: 2px 2px 2px/2px 2px 2px 2px;
+  border: 0;
+  border-bottom: 3px solid #6a989d;
+  color: #fff;
+  background: #66afb7;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 0 50px;
+  height: 50px;
+  line-height: 50px;
+  display: inline-block;
+  font-weight: normal;
+  letter-spacing: 0;
+}
+/* line 135, ../scss/bootstrap-override.scss */
+.jumbotron__banner .btn--turquoise:hover {
+  border-color: #537180;
+  background-color: #698390;
+  cursor: pointer;
+}
+
+/* line 144, ../scss/bootstrap-override.scss */
+.item {
+  height: 600px;
+  width: 100%;
+  margin-top: 15px;
+  border: 1px solid #DADAD8;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* line 153, ../scss/bootstrap-override.scss */
+.item__inner {
+  height: 200px;
+  width: 300px;
+  padding: 20px;
+}
+
+/* line 162, ../scss/bootstrap-override.scss */
+.item__inner .container__button {
+  margin-top: 40px;
+}
+/* line 166, ../scss/bootstrap-override.scss */
+.item__inner .btn__read {
+  background-color: #5A8895;
+  color: white;
+  border-bottom: 3px solid grey;
+}
+/* line 173, ../scss/bootstrap-override.scss */
+.item__inner .fa-trash-o {
+  color: #AFAFAF;
+  background-color: white;
+  position: absolute;
+  z-index: 99;
+  margin-top: -190px;
+  padding: 8px;
+  border: 3px solid #E5E6EB;
+  border-radius: 15px;
+}
+
+/* line 186, ../scss/bootstrap-override.scss */
+footer {
+  margin-top: 50px;
+  padding: 40px;
+  background-color: #5A8895;
+}
+/* line 191, ../scss/bootstrap-override.scss */
+footer .footer__item {
+  color: white;
+}
+/* line 196, ../scss/bootstrap-override.scss */
+footer .social__links {
+  margin: 0 auto;
+}
+/* line 200, ../scss/bootstrap-override.scss */
+footer li {
+  margin-left: 20px;
+}
+/* line 204, ../scss/bootstrap-override.scss */
+footer a {
+  color: white;
+}
+/* line 208, ../scss/bootstrap-override.scss */
+footer a:hover {
+  color: #F4F4F4;
+}
+
+/*********ADMIN PANEL*******/

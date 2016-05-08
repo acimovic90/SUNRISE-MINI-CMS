@@ -1,0 +1,221 @@
+/*=====================SASS Variables================================*/
+/*========================================================*/
+/*=============================================================
+    Authour URI: www.binarycart.com
+    License: Commons Attribution 3.0
+
+    http://creativecommons.org/licenses/by/3.0/
+
+    100% To use For Personal And Commercial Use.
+    IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
+   
+    ========================================================  */
+/*==============================================
+    GENERAL  STYLES    
+    =============================================*/
+/* line 19, ../scss/admin-panel.scss */
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 30px;
+}
+
+/* line 24, ../scss/admin-panel.scss */
+#wrapper {
+  width: 100%;
+  margin-top: 50px;
+}
+
+/* line 29, ../scss/admin-panel.scss */
+#page-wrapper {
+  padding: 15px 15px;
+  min-height: 600px;
+  background: #F3F3F3;
+}
+
+/* line 35, ../scss/admin-panel.scss */
+#page-inner {
+  width: 100%;
+  margin: 10px 20px 10px 0px;
+  background-color: #fff !important;
+  padding: 10px;
+  min-height: 1050px;
+}
+
+/* line 42, ../scss/admin-panel.scss */
+.pad-top {
+  padding-top: 15px;
+}
+
+/*==============================================
+    MENU STYLES    
+    =============================================*/
+/* line 49, ../scss/admin-panel.scss */
+.sidebar-collapse .nav {
+  padding: 0;
+  padding-top: 50px;
+}
+
+/* line 54, ../scss/admin-panel.scss */
+.sidebar-collapse > .nav > li > a {
+  padding: 15px 10px;
+  color: #214761;
+  font-weight: 900;
+  font-size: 16px;
+}
+
+/* line 60, ../scss/admin-panel.scss */
+.sidebar-collapse > .nav > li {
+  border-bottom: 1px solid #e1e1e1;
+}
+
+/* line 63, ../scss/admin-panel.scss */
+.sidebar-collapse .nav > li > a:hover,
+.sidebar-collapse .nav > li > a:focus {
+  background: #F3F3F3;
+  outline: 0;
+}
+
+/* line 70, ../scss/admin-panel.scss */
+.navbar-side {
+  border: none;
+  background-color: #fff;
+}
+
+/* line 75, ../scss/admin-panel.scss */
+.navbar-inverse {
+  background-color: #214761;
+  border-color: #F0F0F0;
+  max-height: 60px;
+}
+
+/* line 82, ../scss/admin-panel.scss */
+.nav > li > a > i {
+  margin-right: 10px;
+}
+
+/* line 86, ../scss/admin-panel.scss */
+.navbar__picture {
+  float: right;
+  width: 80px;
+  height: 80px;
+  margin-right: 30px;
+  background-color: black;
+  border-radius: 15px;
+  border: 3px solid white;
+}
+
+/* line 98, ../scss/admin-panel.scss */
+.logout-spn {
+  float: right;
+  color: #fff;
+  font-size: 2em;
+  margin: 10px 25px 10px 50px;
+}
+
+/* line 104, ../scss/admin-panel.scss */
+.logout-spn a {
+  text-decoration: none;
+}
+
+/* line 107, ../scss/admin-panel.scss */
+.active-link {
+  background-color: #f3f3f3;
+}
+
+/*==============================================
+    DASHBOARD STYLES    
+    =============================================*/
+/* line 114, ../scss/admin-panel.scss */
+.container__panel {
+  margin-top: 20px;
+}
+/* line 117, ../scss/admin-panel.scss */
+.container__panel .panel-title {
+  font-size: 2.2em;
+  font-weight: bold;
+  padding: 10px;
+}
+
+/* line 125, ../scss/admin-panel.scss */
+.panel__table {
+  font-size: 2em;
+}
+
+/* line 130, ../scss/admin-panel.scss */
+.square__active {
+  padding: 10px;
+  border: 5px double #05E177;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+/* line 140, ../scss/admin-panel.scss */
+.square__active > a, .square__active > a:hover {
+  color: #808080;
+  text-decoration: none;
+}
+
+/* line 145, ../scss/admin-panel.scss */
+.square__deactive {
+  padding: 10px;
+  border: 5px double #DA251C;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin: 5px;
+}
+
+/* line 155, ../scss/admin-panel.scss */
+.square__deactive > a, .square__deactive > a:hover {
+  color: #808080;
+  text-decoration: none;
+}
+
+/* line 160, ../scss/admin-panel.scss */
+.form__post {
+  margin-top: 100px;
+  padding: 10px;
+}
+
+/* line 165, ../scss/admin-panel.scss */
+.form__btn {
+  background-color: #5A8895;
+}
+
+/*==============================================
+    FOOTER STYLES     
+    =============================================*/
+/* line 172, ../scss/admin-panel.scss */
+.footer {
+  background-color: #214761;
+  width: 100%;
+  color: #fff;
+  padding: 20px 50px 20px 50px;
+  padding-left: 20px;
+}
+
+/* line 181, ../scss/admin-panel.scss */
+.footer > a, .footer > a:hover {
+  color: #fff;
+}
+
+/*==============================================
+    MEDIA QUERIES     
+    =============================================*/
+@media (min-width: 768px) {
+  /* line 191, ../scss/admin-panel.scss */
+  #page-wrapper {
+    margin: 0 0 0 260px;
+    padding: 15px 30px;
+    min-height: 1050px;
+  }
+
+  /* line 199, ../scss/admin-panel.scss */
+  .navbar-side {
+    z-index: 1;
+    position: absolute;
+    width: 260px;
+  }
+}
